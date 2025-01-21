@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="elem.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather App</h1>
+        </header>
+        <main>
+            <form id="search-form">
+                <input type="text" id="location-input" placeholder="Enter city name" autocomplete="off">
+                <button id="search-button" type="submit">Search</button>
+            </form>
+            <div class="weather-info" id="weather-info">
+                <h2 id="location"></h2>
+                <p id="temperature"></p>
+                <p id="description"></p>
+                <p id="humidity"></p>
+                <p id="wind"></p>
+            </div>
+        </main>
+    </div>
+
+    <script src="keys.js"></script>
+</body>
+</html>
